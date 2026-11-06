@@ -9,6 +9,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://yas-ako.github.io",
+  site: "https://yasako.dev",
   integrations: [mdx()],
 });
