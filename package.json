@@ -7,7 +7,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint . --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.3",
@@ -17,6 +19,7 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@astrojs/check": "0.9.12",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/typography": "^0.5.20",
@@ -27,6 +30,7 @@
     "eslint-plugin-astro": "^3.0.1",
     "eslint-plugin-import-x": "^4.17.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.64.0"
+    "typescript-eslint": "^8.64.0",
+    "wrangler": "4.158.0"
   }
 }
